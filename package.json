@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Read this ENTIRE document before beginning work.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHargrove96/311_wk5_both_api_hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MHargrove96/311_wk5_both_api_hackathon/issues"
+  },
+  "homepage": "https://github.com/MHargrove96/311_wk5_both_api_hackathon#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
