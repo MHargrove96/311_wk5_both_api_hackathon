@@ -13,7 +13,7 @@ class Connection {
         host: BD_HOST,
         user: BD_USER,
         password: BD_PASSWORD,
-        database: BD_DATABASE,
+        database: BD_DATABASE
       });
 
       return this.pool;
