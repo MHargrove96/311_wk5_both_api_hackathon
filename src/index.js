@@ -3,8 +3,7 @@ const app = express();
 const employeesRouter = require("./routes/employees");
 const port = process.env.PORT || 4001;
 
-
-app.use(express.static("public"))
+app.use(express.static("public"));
 app.use(express.json());
 app.use("/employees", employeesRouter);
 
